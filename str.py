@@ -5,7 +5,7 @@ from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 
 st.markdown("""<style> .dodge {background-color: dodgerblue;}</style>""",True)
-sty.markdown("""<h6 class="Dodge">Nochmal ein kleiner Test</h6>""",True);
+sty.markdown("""<h6 class="dodge">Nochmal ein kleiner Test</h6>""",True);
 st.write("""
 # Simple Iris Flower Prediction App
 This app predicts the **Iris flower** type!
