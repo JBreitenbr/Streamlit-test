@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 
-st.markdown("""<style> .dodge {background-color: dodgerblue;}</style>""",True)
+st.markdown("""<style> .dodge {background-color: dodgerblue; color: White;}</style>""",True)
 st.markdown("""<h6 class="dodge">Nochmal ein kleiner Test</h6>""",True);
 st.write("""
 # Simple Iris Flower Prediction App
@@ -12,7 +12,7 @@ This app predicts the **Iris flower** type!
 """)
 st.subheader("Learning to get used to Streamlit...")
 
-st.sidebar.header('User Input Parameters')
+//st.sidebar.header('User Input Parameters')
 
 
 sepal_length = st.slider('Sepal length', 4.3, 7.9, 5.4)
