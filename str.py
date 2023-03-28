@@ -12,7 +12,7 @@ This app predicts the **Iris flower** type!
 """)
 st.subheader("Learning to get used to Streamlit...")
 
-//st.sidebar.header('User Input Parameters')
+#st.sidebar.header('User Input Parameters')
 
 
 sepal_length = st.slider('Sepal length', 4.3, 7.9, 5.4)
