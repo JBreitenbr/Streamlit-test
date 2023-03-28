@@ -4,6 +4,7 @@ import pandas as pd
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 
+st.markdown("""<style>background-color: papayawhip;</style>""",True)
 
 st.write("""
 # Simple Iris Flower Prediction App
